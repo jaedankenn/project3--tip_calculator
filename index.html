@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project 3 - Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-wrapper">
+        <h1>Tip Calculator</h1>
+      </div>
+      <div class="input-wrapper padding">
+        <p>Enter the bill amount and tip percentage to calculate the total</p>
+        <div class="bill-amount padding">
+          <label for="bill-amount">Bill Amount:</label>
+          <input type="number" />
+        </div>
+        <div class="tip-amount padding">
+          <label for="tip-percentage">Tip Percentage:</label>
+          <input type="number" />
+        </div>
+        <button class="button padding">Calculate</button>
+      </div>
+      <div class="total-wrapper padding">
+        <p>Total:<span>$000.00</span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
